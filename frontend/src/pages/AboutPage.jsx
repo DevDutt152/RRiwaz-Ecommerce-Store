@@ -92,7 +92,7 @@ const AboutPage = () => {
                 Weaving Tradition into <span className="italic font-light text-stone-500">Modern Grace</span>
               </h1>
               <p className="text-stone-600 mb-6 leading-relaxed text-lg font-light">
-                At <strong>RRiwaaz</strong>, we believe every garment tells a story. 
+                At <strong>Rरिwaaz</strong>, we believe every garment tells a story. 
                 We blend the rich heritage of Indian craftsmanship with contemporary silhouettes 
                 to create ensembles that celebrate the modern woman. 
               </p>
@@ -151,7 +151,7 @@ const AboutPage = () => {
               Designed for the <br /> <span className="text-amber-800">Royal in You</span>
             </h2>
             <p className="text-stone-600 leading-relaxed mb-6 font-light text-lg">
-              At RRiwaaz, fashion is an emotion. Behind every collection is a dedicated team of designers 
+              At Rरिwaaz, fashion is an emotion. Behind every collection is a dedicated team of designers 
               and <em>kaarigars</em> (artisans) who breathe life into fabric. We honor the legacy of Indian textiles 
               while innovating with cuts and colors that appeal to the contemporary woman.
             </p>
@@ -236,14 +236,14 @@ const AboutPage = () => {
           <div className="text-center mb-16" data-aos="fade-up">
              <Quote size={40} className="text-amber-700/50 mx-auto mb-6" />
             <h2 className="font-marcellus text-4xl text-white mb-4">Client Love</h2>
-            <p className="text-stone-400 font-light">Stories from women who chose RRiwaaz.</p>
+            <p className="text-stone-400 font-light">Stories from women who chose Rरिwaaz.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { text: "The velvet Lehenga I bought for my sister's wedding was stunning. The fitting was flawless right out of the box!", author: "Ayesha Khan", loc: "Delhi" },
               { text: "Finally found a brand that understands ethnic chic. My office wear Kurtis are so comfortable and stylish.", author: "Priya Sharma", loc: "Mumbai" },
-              { text: "I was skeptical about ordering a Saree online, but the silk quality is pure luxury. RRiwaaz is now my go-to.", author: "Zara Malik", loc: "Bangalore" }
+              { text: "I was skeptical about ordering a Saree online, but the silk quality is pure luxury. Rरिwaaz is now my go-to.", author: "Zara Malik", loc: "Bangalore" }
             ].map((item, index) => (
               <div key={index} className="bg-stone-800/50 p-8 border border-stone-700/50 hover:border-amber-700/50 transition-colors" data-aos="fade-up" data-aos-delay={index * 150}>
                 <div className="text-amber-500 text-xs tracking-widest mb-4">★★★★★</div>
@@ -261,7 +261,7 @@ const AboutPage = () => {
       {/* --- CTA Section --- */}
       <div className="bg-amber-50 py-24">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="font-marcellus text-4xl text-stone-900 mb-6" data-aos="fade-up">Embrace the RRiwaaz Elegance</h2>
+          <h2 className="font-marcellus text-4xl text-stone-900 mb-6" data-aos="fade-up">Embrace the Rरिwaaz Elegance</h2>
           <p className="max-w-2xl mx-auto text-stone-600 mb-10 font-light text-lg" data-aos="fade-up" data-aos-delay="100">
             Explore our latest collection or book a video consultation to get your outfit customized from the comfort of your home.
           </p>

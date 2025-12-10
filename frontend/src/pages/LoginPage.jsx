@@ -64,7 +64,7 @@ const LoginPage = () => {
       >
         <div className="text-center mb-10">
           <Link to="/" className="inline-block mb-6">
-             <span className="font-marcellus text-3xl text-stone-900 tracking-tight">RRiwaaz</span>
+             <span className="font-marcellus text-3xl text-stone-900 tracking-tight">Rरिwaaz</span>
           </Link>
           <h2 className="font-marcellus text-2xl text-stone-800 mb-2">Welcome Back</h2>
           <p className="text-stone-500 text-sm font-light">Sign in to access your royal wardrobe.</p>
@@ -135,7 +135,7 @@ const LoginPage = () => {
         </form>
 
         <div className="mt-10 text-center pt-6 border-t border-stone-100">
-          <p className="text-stone-500 text-sm font-light">New to RRiwaaz?</p>
+          <p className="text-stone-500 text-sm font-light">New to Rरिwaaz?</p>
           <Link 
             to="/register" 
             className="inline-block mt-2 text-stone-900 font-bold text-xs uppercase tracking-widest border-b border-stone-900 pb-0.5 hover:text-amber-700 hover:border-amber-700 transition-colors"

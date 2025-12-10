@@ -146,7 +146,7 @@ const ContactPage = () => {
                 <ContactInfoItem 
                   icon={Mail} 
                   title="Email Us" 
-                  lines={['info@rriwaaz.com', 'custom@rriwaaz.com']} 
+                  lines={['info@Rरिwaaz.com', 'custom@Rरिwaaz.com']} 
                 />
                 <div className="my-8 border-t border-stone-100"></div>
                 <ContactInfoItem 

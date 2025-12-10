@@ -105,7 +105,7 @@ const developers = [
     {
         name: 'Ben Carter',
         role: 'Backend Architect',
-        bio: 'The structural engineer of RRiwaaz. Ben designed the scalable server architecture and database schemas that ensure our inventory and orders run with military precision.',
+        bio: 'The structural engineer of Rरिwaaz. Ben designed the scalable server architecture and database schemas that ensure our inventory and orders run with military precision.',
         avatarIcon: Server,
         skills: [
             { name: 'Node.js', icon: Terminal },
@@ -230,7 +230,7 @@ const DeveloperCreditsPage = () => {
                     className="text-center mt-24"
                 >
                     <p className="font-marcellus text-stone-600 text-sm">
-                        RRiwaaz &copy; 2025. Engineering meets Elegance.
+                        Rरिwaaz &copy; 2025. Engineering meets Elegance.
                     </p>
                 </motion.footer>
 

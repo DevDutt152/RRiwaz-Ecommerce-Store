@@ -24,7 +24,7 @@ const Footer = () => {
 
           {/* Brand Column */}
           <div className="md:col-span-1 space-y-6">
-            <h3 className="font-marcellus text-3xl text-white tracking-wide">RRiwaaz</h3>
+            <h3 className="font-marcellus text-3xl text-white tracking-wide">Rरिwaaz</h3>
             <p className="text-sm text-stone-400 leading-7 font-light">
               Celebrating the essence of Indian heritage with contemporary fashion. 
               We bring you the finest ethnic wear, crafted with love, tradition, and a touch of modern grace.
@@ -82,7 +82,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-6">
             <div className="flex flex-col md:flex-row items-center gap-4 text-xs text-stone-500 font-light">
-               <p>&copy; 2025 RRiwaaz. All Rights Reserved.</p>
+               <p>&copy; 2025 Rरिwaaz. All Rights Reserved.</p>
                <span className="hidden md:block w-1 h-1 bg-stone-700 rounded-full"></span>
                {/* Styling the Developer Credit */}
                <p className="group">
@@ -93,7 +93,7 @@ const Footer = () => {
             <div className="flex space-x-4">
                <SocialIcon href="#"><FacebookIcon /></SocialIcon>
                <SocialIcon href="#"><TwitterIcon /></SocialIcon>
-               <SocialIcon href="https://www.instagram.com/rriwaaz?igsh=MW42NThrcmQ5bDRocw=="><InstagramIcon /></SocialIcon>
+               <SocialIcon href="https://www.instagram.com/Rरिwaaz?igsh=MW42NThrcmQ5bDRocw=="><InstagramIcon /></SocialIcon>
             </div>
         </div>
       </div>

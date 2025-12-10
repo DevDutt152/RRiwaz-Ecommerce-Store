@@ -65,7 +65,7 @@ const RegisterPage = () => {
       >
         <div className="text-center mb-10">
           <Link to="/" className="inline-block mb-6">
-             <span className="font-marcellus text-3xl text-stone-900 tracking-tight">RRiwaaz</span>
+             <span className="font-marcellus text-3xl text-stone-900 tracking-tight">Rरिwaaz</span>
           </Link>
           <h2 className="font-marcellus text-2xl text-stone-800 mb-2">Join the Family</h2>
           <p className="text-stone-500 text-sm font-light">Create an account to start your journey.</p>
