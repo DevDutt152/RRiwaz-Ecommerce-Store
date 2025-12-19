@@ -20,13 +20,18 @@ import sareee from '../assets/sareee.jpeg';
 import lehngaaa from '../assets/lehngaaa.jpeg';
 import kurtii from '../assets/kurtii.jpeg';
 import home from '../assets/home.jpeg';
+import neww from '../assets/neww.jpeg';
+import hey from '../assets/hey.jpg';
+import bridal from '../assets/bridal.jpg';
+import ll from '../assets/Look.jpg';
+
 
 // Data Arrays (Kept mostly same, added sale tags logic if needed later)
 const categories = [
-  { _id: '1', name: 'Kurti', image: home, description: 'Chic, comfortable styles designed for your everyday elegance.' },
-  { _id: '2', name: 'Lehnga', image: lehngaImage, description: 'Regal silhouettes and intricate embroidery for your grandest moments.' },
-  { _id: '3', name: 'Saree', image: sareeImage, description: 'Six yards of timeless grace blending heritage with modern style.' },
-  { _id: '4', name: 'Dupatta', image: dupattaImage, description: 'Exquisite drapes to add a luxurious finish to any ensemble.' },
+  { _id: '1', name: 'Saree', image: home, description: 'Chic, comfortable styles designed for your everyday elegance.' },
+  { _id: '2', name: 'Bridal Collection', image: bridal, description: 'Regal silhouettes and intricate embroidery for your grandest moments.' },
+  { _id: '3', name: 'Kurti', image: hey, description: 'Six yards of timeless grace blending heritage with modern style.' },
+  { _id: '4', name: 'Lehngas', image: ll, description: 'Exquisite drapes to add a luxurious finish to any ensemble.' },
   { _id: '5', name: 'Suit', image: suitImage, description: 'Beautifully tailored suits that perfectly balance tradition and trend.' },
 ];
 
@@ -37,12 +42,12 @@ const gridItems = [
 ];
 
 const newArrivals = [
-  { _id: '68b15e83966360f5b90c2936', name: 'Royal Velvet Lehenga', price: '8500.00', image: lehngaaa },
-  { _id: '68b17de7843fba334ca746db', name: 'Banarasi Silk Saree', price: '4500.00', image: banarasi },
-  { _id: '68b17e15843fba334ca74730', name: 'Chikankari Kurti Set', price: '1800.00', image: kurtii },
-  { _id: '68b17e5d843fba334ca74778', name: 'Embroidered Anarkali', price: '6200.00', image: sareee },
-  { _id: '68b17e62843fba334ca747be', name: 'Phulkari Heavy Dupatta', price: '950.00', image: dupattaImage },
-  { _id: '68b17e65843fba334ca74804', name: 'Floral Organza Saree', price: '4500.00', image: desi },
+  { _id: '68b15e83966360f5b90c2936', name: 'Royal Velvet Lehenga', price: '6499.00', image: lehngaaa },
+  { _id: '68b17de7843fba334ca746db', name: 'Banarasi Silk Saree', price: '8499.00', image: banarasi },
+  { _id: '68b17e15843fba334ca74730', name: 'Chikankari Kurti Set', price: '999.00', image: kurtii },
+  { _id: '68b17e5d843fba334ca74778', name: 'Embroidered Anarkali', price: '7499.00', image: sareee },
+  { _id: '68b17e62843fba334ca747be', name: 'Mahira Wine Royale Lehenga', price: '6999.00', image: neww},
+  { _id: '68b17e65843fba334ca74804', name: 'Floral Organza Saree', price: '7999.00', image: desi },
 ];
 
 const testimonials = [
@@ -182,7 +187,7 @@ const HomePage = () => {
          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-full bg-gradient-to-b from-rose-50 to-transparent -z-10 opacity-50 blur-3xl rounded-full"></div>
          
         <div className="container mx-auto text-center max-w-4xl">
-          <h2 className="text-amber-700 text-sm font-bold tracking-[0.3em] uppercase mb-4">Est. 2025</h2>
+          <h2 className="text-amber-700 text-sm font-bold tracking-[0.3em] uppercase mb-4">Est. 2023</h2>
           <h1 className="font-marcellus text-6xl sm:text-7xl md:text-8xl mb-6 text-stone-900 tracking-tight">
             Rरिwaaz
           </h1>
@@ -388,16 +393,7 @@ const HomePage = () => {
           </div>
         </div>
         
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 border-t border-b border-white">
-          {instagramPosts.map(post => (
-            <a href="#" key={post._id} className="group overflow-hidden relative h-64">
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 z-10 transition-colors flex items-center justify-center">
-                 <svg className="w-8 h-8 text-white opacity-0 group-hover:opacity-100 transition-opacity transform scale-0 group-hover:scale-100 duration-300" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.072 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-              </div>
-              <img src={post.image} alt="Instagram post" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
-            </a>
-          ))}
-        </div>
+       
         <a href="https://www.instagram.com/Rरिwaaz?igsh=MW42NThrcmQ5bDRocw==" className="inline-block mt-12 text-stone-900 border-b border-stone-900 pb-1 font-bold text-sm uppercase tracking-widest hover:text-amber-700 hover:border-amber-700 transition-colors">
           Follow us on Instagram
         </a>
