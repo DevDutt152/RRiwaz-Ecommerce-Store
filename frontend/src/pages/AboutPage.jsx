@@ -80,7 +80,7 @@ const AboutPage = () => {
                 className="w-full h-[500px] object-cover relative z-10 shadow-xl"
               />
               <div className="absolute -bottom-8 -right-8 bg-white p-6 shadow-xl z-20 max-w-[200px] border-t-4 border-amber-700 hidden md:block">
-                <p className="font-marcellus text-3xl text-stone-900 mb-1">5+</p>
+                <p className="font-marcellus text-3xl text-stone-900 mb-1">2+</p>
                 <p className="text-xs uppercase tracking-widest text-stone-500">Years of Heritage & Excellence</p>
               </div>
             </div>
@@ -102,7 +102,7 @@ const AboutPage = () => {
               </p>
 
               <div className="grid grid-cols-2 gap-8 mt-8 border-t border-stone-200 pt-8">
-                <StatBox number="2000+" label="Happy Clients" />
+                <StatBox number="200+" label="Happy Clients" />
                 <StatBox number="100%" label="Handcrafted" />
               </div>
             </div>

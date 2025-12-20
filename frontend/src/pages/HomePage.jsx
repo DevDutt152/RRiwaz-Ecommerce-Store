@@ -10,7 +10,7 @@ import kurtiImage from '../assets/kurti.jpeg';
 import lehngaImage from '../assets/lehnga.jpeg';
 import sareeImage from '../assets/saree.jpeg';
 import dupattaImage from '../assets/dupatta.jpeg';
-import suitImage from '../assets/suit.jpeg';
+import suitImage from '../assets/suitnew.jpeg';
 import suit from '../assets/lehnga.jpeg';
 import kurti from '../assets/2.jpeg';
 import lehnga from '../assets/3.jpeg';
@@ -19,20 +19,20 @@ import desi from '../assets/desi.jpeg';
 import sareee from '../assets/sareee.jpeg';
 import lehngaaa from '../assets/lehngaaa.jpeg';
 import kurtii from '../assets/kurtii.jpeg';
-import home from '../assets/home.jpeg';
+import home from '../assets/hey.jpeg';
 import neww from '../assets/neww.jpeg';
-import hey from '../assets/hey.jpg';
+import hey from '../assets/kurtinew.jpeg';
 import bridal from '../assets/bridal.jpg';
-import ll from '../assets/Look.jpg';
+import ll from '../assets/sareenew.jpeg';
 
 
 // Data Arrays (Kept mostly same, added sale tags logic if needed later)
 const categories = [
-  { _id: '1', name: 'Saree', image: home, description: 'Chic, comfortable styles designed for your everyday elegance.' },
+  { _id: '1', name: 'Sarees', image: home, description: 'Chic, comfortable styles designed for your everyday elegance.' },
   { _id: '2', name: 'Bridal Collection', image: bridal, description: 'Regal silhouettes and intricate embroidery for your grandest moments.' },
-  { _id: '3', name: 'Kurti', image: hey, description: 'Six yards of timeless grace blending heritage with modern style.' },
+  { _id: '3', name: 'Kurtis', image: hey, description: 'Six yards of timeless grace blending heritage with modern style.' },
   { _id: '4', name: 'Lehngas', image: ll, description: 'Exquisite drapes to add a luxurious finish to any ensemble.' },
-  { _id: '5', name: 'Suit', image: suitImage, description: 'Beautifully tailored suits that perfectly balance tradition and trend.' },
+  { _id: '5', name: 'Suits', image: suitImage, description: 'Beautifully tailored suits that perfectly balance tradition and trend.' },
 ];
 
 const gridItems = [
